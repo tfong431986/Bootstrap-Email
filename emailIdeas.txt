@@ -1,0 +1,11 @@
+
+Email needs
+1.menu item
+  -Inbox, Drafts, Sent, Spam, Starred, Trash, Settings
+2.Compose new email
+3.Content
+  -selection box
+  -From, Subject, Star icon, part of message (100characters)
+4. search bar
+
+

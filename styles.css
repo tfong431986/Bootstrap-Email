@@ -1,0 +1,51 @@
+body {
+    margin: 30px 0 30px 30px;
+    min-width: 350px;
+}
+
+.row {
+    border: 3px solid red;
+    /*height: 300px;*/
+}
+.my-col {
+    border:1px solid blue;
+}
+.btn-primary {
+    max-width: 90%;
+}
+p {
+    margin: auto;
+}
+.email-summary .list-group-item {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 10vh;
+    padding: 0;
+    overflow-y: auto;
+    scrollbar-width: thin;
+}
+.list-email {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.check-and-star {
+    align-self: center;
+    padding-left: 1px;
+    min-width: 85px;
+}
+.check-and-star .form-check-inline {
+    margin-right: 5px;
+    margin-top: 8px;
+}
+.check-and-star .bi-star {
+    margin-right: 25px;
+}
+.email-info {
+    flex-grow: 1;
+    text-align: left;
+}
+.name {
+    font-weight: bold;
+}

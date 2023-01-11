@@ -1,0 +1,28 @@
+Bootstrap Email Inbox Dev Log
+
+12/21/22 7pm - 7:30pm
+Brainstorm email ideas
+
+12/21/22 7:30pm - 8:30pm
+Sketch wireframes - mobile
+
+12/27/22 7:30 - 8:30pm
+Sketch Wireframes - mobile/tablet
+
+12/28/22 4:30 - 5p
+Sketch wireframes - tablet
+
+12/28/22 8pm - 9:15pm
+Sketch wireframes - desktop
+
+1/2/23 8pm - 9pm
+Created HTML outline
+
+1/3/23 8:30pm-12:30am
+HTMl outline
+
+1/4/23 8:30pm - 10:30pm
+Fix alignments 
+
+1/7/23 3pm - 6pm
+Put all the bootstrap code into, completing the email format 
