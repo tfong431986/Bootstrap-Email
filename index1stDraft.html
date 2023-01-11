@@ -20,10 +20,10 @@
                 Accounts Icon
             </div>
             <!--Create Column 4: Compose Button-->
-            <div class="my-col p-2 col-sm-12 flex-fill col-md-4 col-lg-1 compose-email">
-                <button type="button" class="btn btn-primary" data-bs-toggle="button">Compose</button>
+            <div class="my-col p-2 d-flex col-sm-12 col-md-4 col-lg-2 compose-email">
+                <button type="button" class="btn btn-primary flex-fill" data-bs-toggle="button">Compose</button>
             </div>
-            <div class="my-col p-2 col-sm-12 col-md-8  col-lg-5 searchbar">
+            <div class="my-col p-2 col-sm-12 col-md-8 col-lg-5 searchbar">
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search emails" aria-label="Search">
                   </form>
@@ -67,7 +67,7 @@
             </div>
             <!--Create Column 2:Short Email Summary-->
             <div class="my-col col-sm-12 col-md-8 col-lg-5 email-summary">
-                    <div class="list-group">
+                    <div class="list-group overflow-visible ">
                         <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
                             <div class="list-email">
                                 <div class="check-and-star">
@@ -177,13 +177,30 @@
                     </div>
                 </div>
             <!--Create Column 3: Email content-->
-            <div class="my-col col-sm-12 col-md-12 col-lg-5">
-                Email Content
+            <div class="my-col col-sm-12 col-md-12 col-lg-5 email-content">
+                <h6>From: vanessafarmer@bvtemail.com</h6>
+                <h6>To: bvtclass2211@bvtemail.com</h6>
+                <h4><strong>Subject: Last day of class is Wed Jan 11, 2023</strong></h3>
+                <p class="message">Hi Everyone, Last day of class is Wed Jan 11, 2023. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus dolor porro ipsam minus dignissimos eius? Perspiciatis sint quos tenetur cupiditate fugit neque hic aut, expedita repellat cumque accusantium aliquam, laborum tempora magnam! Reiciendis culpa, dolorum officiis beatae esse placeat natus aliquam velit soluta quod nemo iste adipisci quisquam voluptate itaque.</p>
+                <div class="form-floating text-area">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Reply here</label>
+                    <label for="formControlTextarea" class="form-label">
+                    </label>
+                  </div>
+                <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                <label class="btn btn-outline-primary" for="btnradio1">Reply</label>
+            
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio2">Attach File</label>
+            
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio3">Discard</label>
             </div>
-            <!--//  Create Column 4: Compose Button--
-            <div class="my-col d-flex col-sm-12 align-items-sm-end justify-content-sm-end col-md-4 col-lg-2 order-lg-first order-md-first compose-email">
-                Compose Button
-            </div>  //-->
+                
+            </div>
+           
             
         </div>
     </div>

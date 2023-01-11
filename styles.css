@@ -1,6 +1,7 @@
 body {
     margin: 30px 0 30px 30px;
     min-width: 350px;
+    background-color: rgb(188, 225, 237);
 }
 
 .row {
@@ -9,6 +10,8 @@ body {
 }
 .my-col {
     border:1px solid blue;
+   
+    
 }
 .btn-primary {
     max-width: 90%;
@@ -16,20 +19,36 @@ body {
 p {
     margin: auto;
 }
+.email-summary {
+    /*position: relative;*/
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    
+}
 .email-summary .list-group-item {
     border-top: none;
     border-left: none;
     border-right: none;
-    height: 10vh;
-    padding: 0;
-    overflow-y: auto;
-    scrollbar-width: thin;
+    background-color:rgb(139, 196, 222);
+    /*height: 100%;*/
+    padding: 0;    
+    
+}
+.list-group {
+    padding: 3px;
+    
 }
 .list-email {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    padding: 10px;
 }
+
 .check-and-star {
     align-self: center;
     padding-left: 1px;
@@ -48,4 +67,11 @@ p {
 }
 .name {
     font-weight: bold;
+}
+
+.email-content {
+    text-align: left;
+}
+.text-area {
+    margin: 10px;
 }
