@@ -2,45 +2,58 @@ body {
     margin: 30px 0 30px 30px;
     min-width: 350px;
     background-color: rgb(188, 225, 237);
+    
 }
-
 .row {
-    border: 3px solid red;
+    border: 3px solid rgb(153, 186, 222);
     /*height: 300px;*/
 }
 .my-col {
-    border:1px solid blue;
-   
-    
+    border:1px solid blue;    
+}
+.account-icon {
+    border-radius: 55%;
+    border:2px solid rgb(39, 91, 174);
+    max-height: 3.5em;
+    width: auto;
 }
 .btn-primary {
     max-width: 90%;
+}
+.compose-email>button {
+    height: 90%;
+    width: 95%;
 }
 p {
     margin: auto;
 }
 .email-summary {
-    /*position: relative;*/
-    
     justify-content: center;
     align-items: center;
     height: 100vh;
-    overflow-y: auto;
+    overflow: auto;
     scrollbar-width: thin;
-    
+
 }
 .email-summary .list-group-item {
     border-top: none;
     border-left: none;
     border-right: none;
-    background-color:rgb(139, 196, 222);
-    /*height: 100%;*/
     padding: 0;    
-    
 }
 .list-group {
     padding: 3px;
-    
+
+}
+.email-background {
+    background-color:rgb(139, 196, 222);
+}
+.list-email:hover {
+    background-color: white;
+    color: black;
+}
+.btn-outline-primary {
+    color: black;
 }
 .list-email {
     display: flex;
@@ -71,6 +84,7 @@ p {
 
 .email-content {
     text-align: left;
+    padding: 20px;
 }
 .text-area {
     margin: 10px;

@@ -30,6 +30,15 @@ Put all the bootstrap code into, completing the email format
 1/8/23 4:30pm - 5:30pm
 created the email summary buttons
 
-1/9/23 5:30pm - 7:45pm
+1/9/23 7:30pm - 9:45pm
 created the email content
 Added some more CSS styling
+
+1/10/23 5:30pm - 8pm
+Added CSS
+
+1/11/23 8:30pm - 9:30pm
+Added more CSS
+
+1/12/23 5:30pm - 7pm
+Finalize 
